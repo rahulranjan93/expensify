@@ -1,0 +1,75 @@
+.navlink__button {
+  text-decoration: none;
+  color: white;
+}
+
+.expenses_summary {
+  font-weight: normal;
+}
+.expenselist-container {
+  padding-bottom: $l-size;
+}
+.expenselist {
+  padding-bottom: $l-size;
+}
+.expenselist-header {
+  border: 1px solid #cacccd;
+  height: $xl-size;
+  font-size: $font-size-large;
+  font-weight: 300;
+  padding: 0 $s-size;
+  margin-top: $xl-size;
+  margin-right: $s-size;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.expenselist-header-item {
+  color: $grey;
+}
+.expenselist-no-expense {
+  border: 1px solid #cacccd;
+  height: $xl-size;
+  font-size: $font-size-large;
+  font-weight: 300;
+  padding: 0 $s-size;
+  margin-right: $s-size;
+  border-top-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.no-expense {
+  color: $grey;
+}
+// .expenselist-item-container {
+//   display: block;
+// }
+.expenselist-item {
+  border: 1px solid #cacccd;
+  font-size: $font-size-large;
+
+  padding: 0 $s-size;
+  margin-right: $s-size;
+  border-top-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.expenselist-item-name-container {
+  padding: $s-size 0;
+}
+.expenselist-item-name {
+  text-decoration: none;
+  color: $dark-grey;
+  font-weight: bold;
+}
+.expenselist-item-date {
+  color: $grey;
+  font-size: $font-size-small;
+  padding-bottom: $s-size;
+}
+.expenselist-item-amount {
+  color: $dark-grey;
+  font-weight: bold;
+}

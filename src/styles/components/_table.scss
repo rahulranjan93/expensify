@@ -1,0 +1,28 @@
+table,
+th,
+td {
+  width: 100%;
+  border: 1px solid $grey;
+  border-collapse: collapse;
+}
+
+td {
+  width: 25%;
+  text-align: center;
+  // padding: $m-size $m-size;
+}
+th {
+  width: 25%;
+  text-align: center;
+  font-size: $font-size-large;
+  // border-bottom: 1px solid black;
+}
+
+// td {
+// border-bottom: 1px solid black;
+// }
+
+.content {
+  margin: $m-size $m-size;
+  padding: $m-size $m-size;
+}
